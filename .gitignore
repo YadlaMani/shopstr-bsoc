@@ -1,0 +1,4 @@
+/node_modules
+.env
+/tls.cert/
+/admin.macaroon/

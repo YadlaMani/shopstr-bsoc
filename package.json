@@ -1,0 +1,28 @@
+{
+  "name": "shopstr-pre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@cashu/cashu-ts": "^2.4.2",
+    "cashu": "^0.0.11",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.5.0",
+    "ln-service": "^57.24.0",
+    "nostr-tools": "^2.12.0"
+  }
+}
